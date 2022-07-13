@@ -2,12 +2,14 @@ package com.Spring.SpringCore.model;
 
 
 import lombok.*;
+import org.springframework.context.annotation.Scope;
 
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
 @Getter
+@Scope("prototype")
 @Setter
 @Entity
 @Table(name = "users")
