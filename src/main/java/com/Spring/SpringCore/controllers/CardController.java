@@ -15,7 +15,6 @@ public class CardController {
 
     private final CardService cardService;
 
-
     @GetMapping("cards/{id}")
     public CardDTO sayHello(@PathVariable String id) {
         Card card = cardService.getCard(Long.valueOf(id));

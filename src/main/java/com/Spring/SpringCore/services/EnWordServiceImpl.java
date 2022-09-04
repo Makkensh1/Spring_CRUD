@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class EnWordServiceImpl implements  EnWordService{
+public class EnWordServiceImpl implements EnWordService {
 
     private final EnWordRepository enWordRepository;
 

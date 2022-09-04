@@ -1,16 +1,11 @@
 package com.Spring.SpringCore.repositories;
 
 import com.Spring.SpringCore.model.User;
-import org.springframework.context.annotation.Bean;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
-
-import java.util.Optional;
 
 @Repository
 
-public interface UserRepository  extends CrudRepository <User, Long> {
-
+public interface UserRepository extends CrudRepository<User, Long> {
 
 }

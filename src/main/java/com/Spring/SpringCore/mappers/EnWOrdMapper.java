@@ -8,5 +8,6 @@ import org.mapstruct.factory.Mappers;
 @Mapper
 public interface EnWOrdMapper {
     EnWordDTO toDTO(EnWord enWord);
+
     EnWOrdMapper INSTANCE = Mappers.getMapper(EnWOrdMapper.class);
 }
